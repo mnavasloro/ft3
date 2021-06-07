@@ -1,0 +1,449 @@
+{
+  "@context" : {
+    "gaf.rdfMention" : {
+      "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfMention"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+    },
+    "TIMEX3valueFromFunction" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction"
+    },
+    "Annotation" : {
+      "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+    },
+    "equivalentClass" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#equivalentClass"
+    },
+    "instanceOf" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#instanceOf",
+      "@type" : "@id"
+    },
+    "Error28" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error28"
+    },
+    "hasEventId" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasEventId",
+      "@type" : "@id"
+    },
+    "hasSid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasSid",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#versionInfo"
+    },
+    "hasFreq" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasFreq",
+      "@type" : "@id"
+    },
+    "hasSignalId" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasSignalId",
+      "@type" : "@id"
+    },
+    "validPeriod" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#validPeriod",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#license"
+    },
+    "EVENTargument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EVENTargument"
+    },
+    "EVENTstem" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EVENTstem"
+    },
+    "SIGNALannotation" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALannotation"
+    },
+    "Type" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#Type"
+    },
+    "hasTimeUnit" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasTimeUnit",
+      "@type" : "@id"
+    },
+    "alternativeValue" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#alternativeValue",
+      "@type" : "@id"
+    },
+    "GeneralDateTimeDescription" : {
+      "@id" : "http://www.w3.org/2006/time#GeneralDateTimeDescription"
+    },
+    "hasArgument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument",
+      "@type" : "@id"
+    },
+    "Error27" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error27"
+    },
+    "hasTemporalFunctionID" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID",
+      "@type" : "@id"
+    },
+    "hasID" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasID",
+      "@type" : "@id"
+    },
+    "EventsMatterEvent_who" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who"
+    },
+    "TIMEX3value" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3value"
+    },
+    "not" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#not",
+      "@type" : "@id"
+    },
+    "allValuesFrom" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom"
+    },
+    "Class" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#Class"
+    },
+    "hasPos" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasPos",
+      "@type" : "@id"
+    },
+    "RepetitiveTime" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#RepetitiveTime"
+    },
+    "hasValue" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasValue",
+      "@type" : "@id"
+    },
+    "TIMEX3annotation" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+    },
+    "MAKEINSTANCEpolarity" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity"
+    },
+    "EventSchematization" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventSchematization"
+    },
+    "SIGNALsid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALsid"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "EVENTannotation" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EVENTannotation"
+    },
+    "related" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#related",
+      "@type" : "@id"
+    },
+    "hasFunctionInDocument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasFunctionInDocument",
+      "@type" : "@id"
+    },
+    "hasModality" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasModality",
+      "@type" : "@id"
+    },
+    "hasEiid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasEiid",
+      "@type" : "@id"
+    },
+    "eventType" : {
+      "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#eventType",
+      "@type" : "@id"
+    },
+    "representationOf" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#representationOf",
+      "@type" : "@id"
+    },
+    "EventsMatterAnnotation" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+    },
+    "TIMEX3argument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+    },
+    "Event" : {
+      "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Event"
+    },
+    "annotationOf" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#annotationOf",
+      "@type" : "@id"
+    },
+    "MAKEINSTANCEmodality" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality"
+    },
+    "MAKEINSTANCEargument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+    },
+    "EventsMatterEvent_what" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what"
+    },
+    "closeMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+      "@type" : "@id"
+    },
+    "Interval" : {
+      "@id" : "http://www.w3.org/2006/time#Interval"
+    },
+    "EventInstance" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventInstance"
+    },
+    "gaf.rdfdenotes" : {
+      "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes",
+      "@type" : "@id"
+    },
+    "TIMEX3quant" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3quant"
+    },
+    "hasStem" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasStem",
+      "@type" : "@id"
+    },
+    "Actor" : {
+      "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Actor"
+    },
+    "hasValueFromFunction" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasValueFromFunction",
+      "@type" : "@id"
+    },
+    "hasTemporalFunction" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasTemporalFunction",
+      "@type" : "@id"
+    },
+    "hasType" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasType",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator"
+    },
+    "TIMEX3type" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3type"
+    },
+    "taAnnotatorsRef" : {
+      "@id" : "http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef"
+    },
+    "hasClass" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasClass",
+      "@type" : "@id"
+    },
+    "TIMEX3functionInDocument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument"
+    },
+    "EventMention" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventMention"
+    },
+    "MAKEINSTANCEaspect" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect"
+    },
+    "value" : {
+      "@id" : "http://www.owl-ontologies.com/rdf#value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasBeginPoint" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasBeginPoint",
+      "@type" : "@id"
+    },
+    "repetitionTimes" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#repetitionTimes",
+      "@type" : "@id"
+    },
+    "EventsMatterEvent" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent"
+    },
+    "Error25" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error25"
+    },
+    "TIMEX3TemporalFunctionID" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID"
+    },
+    "ID" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#ID"
+    },
+    "or" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#or",
+      "@type" : "@id"
+    },
+    "hasId" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasId",
+      "@type" : "@id"
+    },
+    "repetitionFrequency" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#repetitionFrequency",
+      "@type" : "@id"
+    },
+    "Argument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#Argument"
+    },
+    "Error26" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error26"
+    },
+    "TIMEX3temporalFunction" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction"
+    },
+    "GeneralDurationDescription" : {
+      "@id" : "http://www.w3.org/2006/time#GeneralDurationDescription"
+    },
+    "SIGNALargument" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALargument"
+    },
+    "Error32" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error32"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix"
+    },
+    "hasMod" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasMod",
+      "@type" : "@id"
+    },
+    "composedOf" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#composedOf",
+      "@type" : "@id"
+    },
+    "MAKEINSTANCEannotation" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+    },
+    "ObjectProperty" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"
+    },
+    "MAKEINSTANCEtense" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense"
+    },
+    "hasCardinality" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasCardinality",
+      "@type" : "@id"
+    },
+    "MAKEINSTANCEeiid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid"
+    },
+    "EventsMatterEvent_when" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when"
+    },
+    "Times" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#Times"
+    },
+    "and" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#and",
+      "@type" : "@id"
+    },
+    "TIMEX3beginPoint" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint"
+    },
+    "PeriodicTimeInterval" : {
+      "@id" : "http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval"
+    },
+    "EVENTeid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EVENTeid"
+    },
+    "title" : {
+      "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#title"
+    },
+    "Restriction" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#Restriction"
+    },
+    "hasQuant" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasQuant",
+      "@type" : "@id"
+    },
+    "MAKEINSTANCEpos" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos"
+    },
+    "taConfidence" : {
+      "@id" : "http://www.w3.org/2005/11/its/rdf#taConfidence"
+    },
+    "type" : {
+      "@id" : "http://www.owl-ontologies.com/rdf#type"
+    },
+    "MAKEINSTANCEcardinality" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality"
+    },
+    "Error29" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error29"
+    },
+    "Error30" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error30"
+    },
+    "TemporalExpression" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TemporalExpression"
+    },
+    "ComposedTemporalExpression" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+    },
+    "TIMEX3tid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid"
+    },
+    "unionOf" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#unionOf"
+    },
+    "TIMEX3mod" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3mod"
+    },
+    "onProperty" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#onProperty"
+    },
+    "AnnotationProperty" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"
+    },
+    "TIMEX3freq" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3freq"
+    },
+    "hasTense" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasTense",
+      "@type" : "@id"
+    },
+    "TIMEX3endPoint" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3endPoint"
+    },
+    "AnnotationSchema" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#AnnotationSchema"
+    },
+    "DatatypeProperty" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty"
+    },
+    "EVENTclass" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EVENTclass"
+    },
+    "EventFormalization" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#EventFormalization"
+    },
+    "hasTid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasTid",
+      "@type" : "@id"
+    },
+    "hasEndPoint" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasEndPoint",
+      "@type" : "@id"
+    },
+    "hasAspect" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasAspect",
+      "@type" : "@id"
+    },
+    "gaf.rdfInstance" : {
+      "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance"
+    },
+    "description" : {
+      "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#description"
+    },
+    "Time" : {
+      "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri"
+    },
+    "hasPolarity" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasPolarity",
+      "@type" : "@id"
+    },
+    "hasEid" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#hasEid",
+      "@type" : "@id"
+    },
+    "followsSchema" : {
+      "@id" : "http://fromtimetotime.linkeddata.es/#followsSchema",
+      "@type" : "@id"
+    },
+    "Error31" : {
+      "@id" : "http://org.semanticweb.owlapi/error#Error31"
+    }
+  }
+}
