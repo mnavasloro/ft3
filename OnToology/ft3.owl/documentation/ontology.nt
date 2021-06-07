@@ -1,0 +1,1585 @@
+<https://fromtimetotime.linkeddata.es/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://fromtimetotime.linkeddata.es/ontology> <http://www.w3.org/2002/07/owl#versionIRI> <https://fromtimetotime.linkeddata.es/ontology/1.0> .
+<https://fromtimetotime.linkeddata.es/ontology> <http://purl.org/dc/elements/1.1/title> "Ontology to support temporal information annotation." .
+<https://fromtimetotime.linkeddata.es/ontology> <http://purl.org/dc/elements/1.1/title> "fromTimeToTime" .
+<https://fromtimetotime.linkeddata.es/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "ft3" .
+<https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator> "María Navas-Loro" .
+<https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#description> "Ontology to support temporal information annotation" .
+<https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#license> "http://creativecommons.org/licenses/by-nc-sa/2.0/" .
+<https://fromtimetotime.linkeddata.es/ontology> <https://fromtimetotime.linkeddata.es/ontology#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://fromtimetotime.linkeddata.es/ontology> <https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix> "ft3" .
+<https://fromtimetotime.linkeddata.es/ontology> <https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri> "https://fromtimetotime.linkeddata.es/ontology" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/abstract
+<http://purl.org/dc/elements/1.1/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.owl-ontologies.com/rdf#type
+<http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef
+<http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit> .
+# 
+# http://www.w3.org/2005/11/its/rdf#taConfidence
+<http://www.w3.org/2005/11/its/rdf#taConfidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2005/11/its/rdf#taConfidence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit> .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#description
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#license
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#title
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#allValuesFrom
+<https://fromtimetotime.linkeddata.es/ontology#allValuesFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#equivalentClass
+<https://fromtimetotime.linkeddata.es/ontology#equivalentClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#onProperty
+<https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#unionOf
+<https://fromtimetotime.linkeddata.es/ontology#unionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#versionInfo
+<https://fromtimetotime.linkeddata.es/ontology#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix
+<https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri
+<https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://fromtimetotime.linkeddata.es/#alternativeValue
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EventSchematization> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticweb.cs.vu.nl/2009/11/sem/#Actor> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticweb.cs.vu.nl/2009/11/sem/#Time> .
+# 
+# http://fromtimetotime.linkeddata.es/#and
+<http://fromtimetotime.linkeddata.es/#and> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#and> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> .
+<http://fromtimetotime.linkeddata.es/#and> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> .
+# 
+# http://fromtimetotime.linkeddata.es/#annotationOf
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventMention> .
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EventSchematization> .
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TemporalExpression> .
+# 
+# http://fromtimetotime.linkeddata.es/#composedOf
+<http://fromtimetotime.linkeddata.es/#composedOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#composedOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> .
+<http://fromtimetotime.linkeddata.es/#composedOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error26> .
+# 
+# http://fromtimetotime.linkeddata.es/#followsSchema
+<http://fromtimetotime.linkeddata.es/#followsSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#followsSchema> <http://www.w3.org/2000/01/rdf-schema#domain> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> .
+<http://fromtimetotime.linkeddata.es/#followsSchema> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#AnnotationSchema> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasArgument
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EVENTannotation> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#SIGNALannotation> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#Argument> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EVENTargument> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#SIGNALargument> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasAspect
+<http://fromtimetotime.linkeddata.es/#hasAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasAspect> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasAspect> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasBeginPoint
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasCardinality
+<http://fromtimetotime.linkeddata.es/#hasCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasCardinality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasCardinality> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasClass
+<http://fromtimetotime.linkeddata.es/#hasClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasClass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EVENTannotation> .
+<http://fromtimetotime.linkeddata.es/#hasClass> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EVENTclass> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEid
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EVENTannotation> .
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EVENTeid> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEiid
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEndPoint
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3endPoint> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEventId
+<http://fromtimetotime.linkeddata.es/#hasEventId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEventId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+<http://fromtimetotime.linkeddata.es/#hasEventId> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EVENTeid> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasFreq
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3freq> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasFunctionInDocument
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasID
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> .
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#ID> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasId
+<http://fromtimetotime.linkeddata.es/#hasId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#SIGNALannotation> .
+<http://fromtimetotime.linkeddata.es/#hasId> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#SIGNALsid> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasMod
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3mod> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasModality
+<http://fromtimetotime.linkeddata.es/#hasModality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasModality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasModality> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasPolarity
+<http://fromtimetotime.linkeddata.es/#hasPolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasPos
+<http://fromtimetotime.linkeddata.es/#hasPos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasPos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasPos> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasQuant
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3quant> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasSid
+<http://fromtimetotime.linkeddata.es/#hasSid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasSid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasSignalId
+<http://fromtimetotime.linkeddata.es/#hasSignalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasSignalId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+<http://fromtimetotime.linkeddata.es/#hasSignalId> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#SIGNALsid> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasStem
+<http://fromtimetotime.linkeddata.es/#hasStem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasStem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EVENTannotation> .
+<http://fromtimetotime.linkeddata.es/#hasStem> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EVENTstem> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTemporalFunction
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTense
+<http://fromtimetotime.linkeddata.es/#hasTense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTense> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#hasTense> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTid
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3tid> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTimeUnit
+<http://fromtimetotime.linkeddata.es/#hasTimeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTimeUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#Times> .
+<http://fromtimetotime.linkeddata.es/#hasTimeUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error25> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasType
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> .
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3type> .
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#Type> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasValue
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3value> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasValueFromFunction
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://fromtimetotime.linkeddata.es/#hasArgument> .
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3annotation> .
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction> .
+# 
+# http://fromtimetotime.linkeddata.es/#instanceOf
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventInstance> .
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> .
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EVENTannotation> .
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EventSchematization> .
+# 
+# http://fromtimetotime.linkeddata.es/#not
+<http://fromtimetotime.linkeddata.es/#not> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#not> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> .
+<http://fromtimetotime.linkeddata.es/#not> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> .
+# 
+# http://fromtimetotime.linkeddata.es/#or
+<http://fromtimetotime.linkeddata.es/#or> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#or> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> .
+<http://fromtimetotime.linkeddata.es/#or> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> .
+# 
+# http://fromtimetotime.linkeddata.es/#repetitionFrequency
+<http://fromtimetotime.linkeddata.es/#repetitionFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#repetitionFrequency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#RepetitiveTime> .
+<http://fromtimetotime.linkeddata.es/#repetitionFrequency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#GeneralDurationDescription> .
+# 
+# http://fromtimetotime.linkeddata.es/#repetitionTimes
+<http://fromtimetotime.linkeddata.es/#repetitionTimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#repetitionTimes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#RepetitiveTime> .
+<http://fromtimetotime.linkeddata.es/#repetitionTimes> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#Times> .
+# 
+# http://fromtimetotime.linkeddata.es/#representationOf
+<http://fromtimetotime.linkeddata.es/#representationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#representationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TemporalExpression> .
+<http://fromtimetotime.linkeddata.es/#representationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticweb.cs.vu.nl/2009/11/sem/#Time> .
+# 
+# http://fromtimetotime.linkeddata.es/#validPeriod
+<http://fromtimetotime.linkeddata.es/#validPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#validPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticweb.cs.vu.nl/2009/11/sem/#Time> .
+<http://fromtimetotime.linkeddata.es/#validPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#Interval> .
+# 
+# http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://groundedannotationframework.org/files/2014/01/gaf.rdfMention> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance> .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#eventType
+<http://semanticweb.cs.vu.nl/2009/11/sem/#eventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#eventType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventSchematization> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#eventType> <http://www.w3.org/2000/01/rdf-schema#range> <http://fromtimetotime.linkeddata.es/#EventFormalization> .
+# 
+# http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#EventSchematization> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#RepetitiveTime> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticweb.cs.vu.nl/2009/11/sem/#Event> .
+# 
+# http://www.w3.org/2004/02/skos/core#related
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#domain> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> .
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#range> <http://groundedannotationframework.org/files/2014/01/gaf.rdfMention> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.owl-ontologies.com/rdf#value
+<http://www.owl-ontologies.com/rdf#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/rdf#value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://fromtimetotime.linkeddata.es/#TIMEX3value> .
+<http://www.owl-ontologies.com/rdf#value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://fromtimetotime.linkeddata.es/#AnnotationSchema
+<http://fromtimetotime.linkeddata.es/#AnnotationSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#Argument
+<http://fromtimetotime.linkeddata.es/#Argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression
+<http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TemporalExpression> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTannotation
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error28> .
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error29> .
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTargument
+<http://fromtimetotime.linkeddata.es/#EVENTargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTargument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#Argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTclass
+<http://fromtimetotime.linkeddata.es/#EVENTclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTclass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#EVENTargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTeid
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#EVENTargument> .
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#ID> .
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTstem
+<http://fromtimetotime.linkeddata.es/#EVENTstem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTstem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#EVENTargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventFormalization
+<http://fromtimetotime.linkeddata.es/#EventFormalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventInstance
+<http://fromtimetotime.linkeddata.es/#EventInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventMention
+<http://fromtimetotime.linkeddata.es/#EventMention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventSchematization
+<http://fromtimetotime.linkeddata.es/#EventSchematization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation
+<http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#ID
+<http://fromtimetotime.linkeddata.es/#ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error27> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#Argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#ID> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#RepetitiveTime
+<http://fromtimetotime.linkeddata.es/#RepetitiveTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#RepetitiveTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticweb.cs.vu.nl/2009/11/sem/#Time> .
+# 
+# http://fromtimetotime.linkeddata.es/#SIGNALannotation
+<http://fromtimetotime.linkeddata.es/#SIGNALannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#SIGNALannotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#Argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#SIGNALargument
+<http://fromtimetotime.linkeddata.es/#SIGNALargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#SIGNALargument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#Argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#SIGNALsid
+<http://fromtimetotime.linkeddata.es/#SIGNALsid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#SIGNALsid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#ID> .
+<http://fromtimetotime.linkeddata.es/#SIGNALsid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#SIGNALargument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID
+<http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3tid> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3annotation
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error30> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error31> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error32> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3argument
+<http://fromtimetotime.linkeddata.es/#TIMEX3argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3argument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#Argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint
+<http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3tid> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3endPoint
+<http://fromtimetotime.linkeddata.es/#TIMEX3endPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3endPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3tid> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3freq
+<http://fromtimetotime.linkeddata.es/#TIMEX3freq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3freq> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument
+<http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3mod
+<http://fromtimetotime.linkeddata.es/#TIMEX3mod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3mod> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3quant
+<http://fromtimetotime.linkeddata.es/#TIMEX3quant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3quant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction
+<http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3tid
+<http://fromtimetotime.linkeddata.es/#TIMEX3tid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3tid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#ID> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3tid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3type
+<http://fromtimetotime.linkeddata.es/#TIMEX3type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#Type> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3value
+<http://fromtimetotime.linkeddata.es/#TIMEX3value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3argument> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction
+<http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://fromtimetotime.linkeddata.es/#TIMEX3tid> .
+# 
+# http://fromtimetotime.linkeddata.es/#TemporalExpression
+<http://fromtimetotime.linkeddata.es/#TemporalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#Times
+<http://fromtimetotime.linkeddata.es/#Times> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#Type
+<http://fromtimetotime.linkeddata.es/#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://groundedannotationframework.org/files/2014/01/gaf.rdfMention
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfMention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error25
+<http://org.semanticweb.owlapi/error#Error25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error26
+<http://org.semanticweb.owlapi/error#Error26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error27
+<http://org.semanticweb.owlapi/error#Error27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error28
+<http://org.semanticweb.owlapi/error#Error28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error29
+<http://org.semanticweb.owlapi/error#Error29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error30
+<http://org.semanticweb.owlapi/error#Error30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error31
+<http://org.semanticweb.owlapi/error#Error31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error32
+<http://org.semanticweb.owlapi/error#Error32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval
+<http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#Actor
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#Event
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#Time
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/time#GeneralDateTimeDescription
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticweb.cs.vu.nl/2009/11/sem/#Time> .
+# 
+# http://www.w3.org/2006/time#GeneralDurationDescription
+<http://www.w3.org/2006/time#GeneralDurationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#GeneralDurationDescription> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticweb.cs.vu.nl/2009/11/sem/#Time> .
+# 
+# http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty
+<https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#Class
+<https://fromtimetotime.linkeddata.es/ontology#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty
+<https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#ObjectProperty
+<https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://fromtimetotime.linkeddata.es/ontology#Restriction
+<https://fromtimetotime.linkeddata.es/ontology#Restriction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://fromtimetotime.linkeddata.es/#AnnotationSchema
+<http://fromtimetotime.linkeddata.es/#AnnotationSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#AnnotationSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#Argument
+<http://fromtimetotime.linkeddata.es/#Argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#Argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression
+<http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTannotation
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTargument
+<http://fromtimetotime.linkeddata.es/#EVENTargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EVENTargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTclass
+<http://fromtimetotime.linkeddata.es/#EVENTclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EVENTclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTeid
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EVENTstem
+<http://fromtimetotime.linkeddata.es/#EVENTstem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EVENTstem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventFormalization
+<http://fromtimetotime.linkeddata.es/#EventFormalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventFormalization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventInstance
+<http://fromtimetotime.linkeddata.es/#EventInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventMention
+<http://fromtimetotime.linkeddata.es/#EventMention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventMention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventSchematization
+<http://fromtimetotime.linkeddata.es/#EventSchematization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventSchematization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation
+<http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#ID
+<http://fromtimetotime.linkeddata.es/#ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#RepetitiveTime
+<http://fromtimetotime.linkeddata.es/#RepetitiveTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#RepetitiveTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#SIGNALannotation
+<http://fromtimetotime.linkeddata.es/#SIGNALannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#SIGNALannotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#SIGNALargument
+<http://fromtimetotime.linkeddata.es/#SIGNALargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#SIGNALargument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#SIGNALsid
+<http://fromtimetotime.linkeddata.es/#SIGNALsid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#SIGNALsid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID
+<http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3annotation
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3argument
+<http://fromtimetotime.linkeddata.es/#TIMEX3argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint
+<http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3endPoint
+<http://fromtimetotime.linkeddata.es/#TIMEX3endPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3endPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3freq
+<http://fromtimetotime.linkeddata.es/#TIMEX3freq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3freq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument
+<http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3mod
+<http://fromtimetotime.linkeddata.es/#TIMEX3mod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3mod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3quant
+<http://fromtimetotime.linkeddata.es/#TIMEX3quant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3quant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction
+<http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3tid
+<http://fromtimetotime.linkeddata.es/#TIMEX3tid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3tid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3type
+<http://fromtimetotime.linkeddata.es/#TIMEX3type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3value
+<http://fromtimetotime.linkeddata.es/#TIMEX3value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction
+<http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#TemporalExpression
+<http://fromtimetotime.linkeddata.es/#TemporalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#TemporalExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#Times
+<http://fromtimetotime.linkeddata.es/#Times> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#Times> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#Type
+<http://fromtimetotime.linkeddata.es/#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://fromtimetotime.linkeddata.es/#alternativeValue
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#and
+<http://fromtimetotime.linkeddata.es/#and> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#and> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#annotationOf
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#composedOf
+<http://fromtimetotime.linkeddata.es/#composedOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#composedOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#followsSchema
+<http://fromtimetotime.linkeddata.es/#followsSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#followsSchema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasArgument
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasAspect
+<http://fromtimetotime.linkeddata.es/#hasAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasBeginPoint
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasCardinality
+<http://fromtimetotime.linkeddata.es/#hasCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasClass
+<http://fromtimetotime.linkeddata.es/#hasClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEid
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEiid
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEndPoint
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasEventId
+<http://fromtimetotime.linkeddata.es/#hasEventId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasEventId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasFreq
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasFunctionInDocument
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasID
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasId
+<http://fromtimetotime.linkeddata.es/#hasId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasMod
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasModality
+<http://fromtimetotime.linkeddata.es/#hasModality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasModality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasPolarity
+<http://fromtimetotime.linkeddata.es/#hasPolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasPolarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasPos
+<http://fromtimetotime.linkeddata.es/#hasPos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasPos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasQuant
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasSid
+<http://fromtimetotime.linkeddata.es/#hasSid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasSid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasSignalId
+<http://fromtimetotime.linkeddata.es/#hasSignalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasSignalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasStem
+<http://fromtimetotime.linkeddata.es/#hasStem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasStem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTemporalFunction
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTense
+<http://fromtimetotime.linkeddata.es/#hasTense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasTense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTid
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasTimeUnit
+<http://fromtimetotime.linkeddata.es/#hasTimeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasTimeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasType
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasValue
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#hasValueFromFunction
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#instanceOf
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#not
+<http://fromtimetotime.linkeddata.es/#not> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#not> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#or
+<http://fromtimetotime.linkeddata.es/#or> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#or> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#repetitionFrequency
+<http://fromtimetotime.linkeddata.es/#repetitionFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#repetitionFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#repetitionTimes
+<http://fromtimetotime.linkeddata.es/#repetitionTimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#repetitionTimes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#representationOf
+<http://fromtimetotime.linkeddata.es/#representationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#representationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://fromtimetotime.linkeddata.es/#validPeriod
+<http://fromtimetotime.linkeddata.es/#validPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://fromtimetotime.linkeddata.es/#validPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://groundedannotationframework.org/files/2014/01/gaf.rdfMention
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfMention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfMention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit> <http://www.w3.org/2000/01/rdf-schema#label> "annotation Unit" .
+# 
+# http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval
+<http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://purl.bioontology.org/ontology/TEO#TemporalInterval
+<http://purl.bioontology.org/ontology/TEO#TemporalInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.bioontology.org/ontology/TEO#TemporalInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+<http://purl.bioontology.org/ontology/TEO#TemporalInterval> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/TEO#TemporalInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Interval" .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#Actor
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#Event
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#Time
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://semanticweb.cs.vu.nl/2009/11/sem/#eventType
+<http://semanticweb.cs.vu.nl/2009/11/sem/#eventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#eventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://www.owl-ontologies.com/rdf#type
+<http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> .
+# 
+# http://www.owl-ontologies.com/rdf#value
+<http://www.owl-ontologies.com/rdf#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.owl-ontologies.com/rdf#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#related
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#ObjectProperty> .
+# 
+# http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef
+<http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> .
+# 
+# http://www.w3.org/2005/11/its/rdf#taConfidence
+<http://www.w3.org/2005/11/its/rdf#taConfidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2005/11/its/rdf#taConfidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> .
+# 
+# http://www.w3.org/2006/time#GeneralDateTimeDescription
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://www.w3.org/2006/time#GeneralDurationDescription
+<http://www.w3.org/2006/time#GeneralDurationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2006/time#GeneralDurationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+# 
+# http://www.w3.org/2006/time#TimeUnit
+<http://www.w3.org/2006/time#TimeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3.org/2006/time#TimeUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+<http://www.w3.org/2006/time#TimeUnit> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#TimeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Time Unit" .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#description
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#license
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> .
+# 
+# https://dublincore.org/specifications/dublin-core/dcmi-terms/#title
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://dublincore.org/specifications/dublin-core/dcmi-terms/#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty> .
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+_:genid1 <https://fromtimetotime.linkeddata.es/ontology#unionOf> _:genid2 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Class> .
+_:genid3 <https://fromtimetotime.linkeddata.es/ontology#unionOf> _:genid4 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Restriction> .
+_:genid5 <https://fromtimetotime.linkeddata.es/ontology#allValuesFrom> <http://fromtimetotime.linkeddata.es/#EVENTclass> .
+_:genid5 <https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://fromtimetotime.linkeddata.es/#hasClass> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Restriction> .
+_:genid6 <https://fromtimetotime.linkeddata.es/ontology#allValuesFrom> <http://fromtimetotime.linkeddata.es/#EVENTeid> .
+_:genid6 <https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://fromtimetotime.linkeddata.es/#hasEid> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Restriction> .
+_:genid7 <https://fromtimetotime.linkeddata.es/ontology#allValuesFrom> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> .
+_:genid7 <https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://fromtimetotime.linkeddata.es/#hasEiid> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Restriction> .
+_:genid8 <https://fromtimetotime.linkeddata.es/ontology#allValuesFrom> <http://fromtimetotime.linkeddata.es/#TIMEX3tid> .
+_:genid8 <https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://fromtimetotime.linkeddata.es/#hasTid> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Restriction> .
+_:genid9 <https://fromtimetotime.linkeddata.es/ontology#allValuesFrom> <http://fromtimetotime.linkeddata.es/#TIMEX3type> .
+_:genid9 <https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://fromtimetotime.linkeddata.es/#hasType> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://fromtimetotime.linkeddata.es/ontology#Restriction> .
+_:genid10 <https://fromtimetotime.linkeddata.es/ontology#allValuesFrom> <http://fromtimetotime.linkeddata.es/#TIMEX3value> .
+_:genid10 <https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://fromtimetotime.linkeddata.es/#hasValue> .
+_:genid11 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid13 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid15 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://fromtimetotime.linkeddata.es/#ACE2005> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#ADJECTIVE> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> .
+<http://fromtimetotime.linkeddata.es/#ADJECTIVE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#AFTER> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#APPROX> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#ASPECTUAL> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#AnnotationSchema> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#AnnotationSchema> <http://www.w3.org/2000/01/rdf-schema#label> "Annotation Schema" .
+# 
+<http://fromtimetotime.linkeddata.es/#Argument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#Argument> <http://www.w3.org/2000/01/rdf-schema#label> "Argument" .
+# 
+<http://fromtimetotime.linkeddata.es/#BEFORE> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#TIMEX3mod> .
+<http://fromtimetotime.linkeddata.es/#BEFORE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#CREATION_TIME> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> .
+<http://fromtimetotime.linkeddata.es/#CREATION_TIME> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Composed Temporal Expression" .
+# 
+<http://fromtimetotime.linkeddata.es/#DATE> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#TIMEX3type> .
+<http://fromtimetotime.linkeddata.es/#DATE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#DURATION> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#END> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#EQUAL_OR_LESS> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#EQUAL_OR_MORE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTannotation> <http://www.w3.org/2000/01/rdf-schema#label> "E V E N Tannotation" .
+# 
+<http://fromtimetotime.linkeddata.es/#EVENTargument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTargument> <http://www.w3.org/2000/01/rdf-schema#label> "E V E N Targument" .
+# 
+<http://fromtimetotime.linkeddata.es/#EVENTclass> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTclass> <http://www.w3.org/2000/01/rdf-schema#label> "E V E N Tclass" .
+# 
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTeid> <http://www.w3.org/2000/01/rdf-schema#label> "E V E N Teid" .
+# 
+<http://fromtimetotime.linkeddata.es/#EVENTstem> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EVENTstem> <http://www.w3.org/2000/01/rdf-schema#label> "E V E N Tstem" .
+# 
+<http://fromtimetotime.linkeddata.es/#EXPIRATION_TIME> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#EventFormalization> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventFormalization> <http://www.w3.org/2000/01/rdf-schema#label> "Event Formalization" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventInstance> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventInstance> <http://www.w3.org/2000/01/rdf-schema#label> "Event Instance" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventMention> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventMention> <http://www.w3.org/2000/01/rdf-schema#label> "Event Mention" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventSchematization> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventSchematization> <http://www.w3.org/2000/01/rdf-schema#label> "Event Schematization" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventsMatter> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "Events Matter Annotation" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Events Matter Event" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what> <http://www.w3.org/2000/01/rdf-schema#label> "Events Matter Event_what" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when> <http://www.w3.org/2000/01/rdf-schema#label> "Events Matter Event_when" .
+# 
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who> <http://www.w3.org/2000/01/rdf-schema#label> "Events Matter Event_who" .
+# 
+<http://fromtimetotime.linkeddata.es/#FUTURE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#ID> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#ID> <http://www.w3.org/2000/01/rdf-schema#label> "I D" .
+# 
+<http://fromtimetotime.linkeddata.es/#INFINITIVE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#I_ACTION> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#I_STATE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#LESS_THAN> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Eannotation" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Eargument" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Easpect" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Ecardinality" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Eeiid" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Emodality" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Epolarity" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Epos" .
+# 
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> <http://www.w3.org/2000/01/rdf-schema#label> "M A K E I N S T A N C Etense" .
+# 
+<http://fromtimetotime.linkeddata.es/#MID> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#MODIFICATION_TIME> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#MORE_THAN> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#NEG> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity> .
+<http://fromtimetotime.linkeddata.es/#NEG> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#NONE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#NOUN> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#OCCURRENCE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#ON_OR_AFTER> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#ON_OR_BEFORE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PAST> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense> .
+<http://fromtimetotime.linkeddata.es/#PAST> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PASTPART> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PERCEPTION> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PERFECTIVE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PERFECTIVE_PROGRESSIVE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#POS> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PREPOSITION> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PRESENT> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PRESPART> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PROGRESSIVE> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect> .
+<http://fromtimetotime.linkeddata.es/#PROGRESSIVE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#PUBLICATION_TIME> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#RECEPTION_TIME> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#RELEASE_TIME> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#REPORTING> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#EVENTclass> .
+<http://fromtimetotime.linkeddata.es/#REPORTING> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#RepetitiveTime> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#RepetitiveTime> <http://www.w3.org/2000/01/rdf-schema#label> "Repetitive Time" .
+# 
+<http://fromtimetotime.linkeddata.es/#SET> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#SIGNALannotation> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#SIGNALannotation> <http://www.w3.org/2000/01/rdf-schema#label> "S I G N A Lannotation" .
+# 
+<http://fromtimetotime.linkeddata.es/#SIGNALargument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#SIGNALargument> <http://www.w3.org/2000/01/rdf-schema#label> "S I G N A Largument" .
+# 
+<http://fromtimetotime.linkeddata.es/#SIGNALsid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#SIGNALsid> <http://www.w3.org/2000/01/rdf-schema#label> "S I G N A Lsid" .
+# 
+<http://fromtimetotime.linkeddata.es/#START> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#STATE> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#TIME> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3 Temporal Function I D" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3annotation> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3annotation" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3argument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3argument> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3argument" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3begin Point" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3endPoint> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3endPoint> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3end Point" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3freq> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3freq> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3freq" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3function In Document" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3mod> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3mod> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3mod" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3quant> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3quant> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3quant" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3temporal Function" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3tid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3tid> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3tid" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3type> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3type> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3type" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3value> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3value> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3value" .
+# 
+<http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction> <http://www.w3.org/2000/01/rdf-schema#label> "T I M E X3value From Function" .
+# 
+<http://fromtimetotime.linkeddata.es/#TemporalExpression> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#TemporalExpression> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Expression" .
+# 
+<http://fromtimetotime.linkeddata.es/#TimeML> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#AnnotationSchema> .
+<http://fromtimetotime.linkeddata.es/#TimeML> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#Times> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#Times> <http://www.w3.org/2000/01/rdf-schema#label> "Times" .
+# 
+<http://fromtimetotime.linkeddata.es/#Type> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://fromtimetotime.linkeddata.es/#Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+# 
+<http://fromtimetotime.linkeddata.es/#VERB> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#alternativeValue> <http://www.w3.org/2000/01/rdf-schema#label> "alternative value" .
+# 
+<http://fromtimetotime.linkeddata.es/#and> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#and> <http://www.w3.org/2000/01/rdf-schema#label> "and" .
+# 
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#annotationOf> <http://www.w3.org/2000/01/rdf-schema#label> "annotation of" .
+# 
+<http://fromtimetotime.linkeddata.es/#circumstance> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#composedOf> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#composedOf> <http://www.w3.org/2000/01/rdf-schema#label> "composed of" .
+# 
+<http://fromtimetotime.linkeddata.es/#false> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#followsSchema> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#followsSchema> <http://www.w3.org/2000/01/rdf-schema#label> "follows schema" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasArgument> <http://www.w3.org/2000/01/rdf-schema#label> "has argument" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasAspect> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasAspect> <http://www.w3.org/2000/01/rdf-schema#label> "has aspect" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasBeginPoint> <http://www.w3.org/2000/01/rdf-schema#label> "has begin point" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasCardinality> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasCardinality> <http://www.w3.org/2000/01/rdf-schema#label> "has cardinality" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasClass> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasClass> <http://www.w3.org/2000/01/rdf-schema#label> "has class" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEid> <http://www.w3.org/2000/01/rdf-schema#label> "has eid" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEiid> <http://www.w3.org/2000/01/rdf-schema#label> "has eiid" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEndPoint> <http://www.w3.org/2000/01/rdf-schema#label> "has end point" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasEventId> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasEventId> <http://www.w3.org/2000/01/rdf-schema#label> "has event id" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasFreq> <http://www.w3.org/2000/01/rdf-schema#label> "has freq" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasFunctionInDocument> <http://www.w3.org/2000/01/rdf-schema#label> "has function in document" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasID> <http://www.w3.org/2000/01/rdf-schema#label> "has i d" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasId> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasId> <http://www.w3.org/2000/01/rdf-schema#label> "has id" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasMod> <http://www.w3.org/2000/01/rdf-schema#label> "has mod" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasModality> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasModality> <http://www.w3.org/2000/01/rdf-schema#label> "has modality" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasPolarity> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasPolarity> <http://www.w3.org/2000/01/rdf-schema#label> "has polarity" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasPos> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasPos> <http://www.w3.org/2000/01/rdf-schema#label> "has pos" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasQuant> <http://www.w3.org/2000/01/rdf-schema#label> "has quant" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasSid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasSid> <http://www.w3.org/2000/01/rdf-schema#label> "has sid" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasSignalId> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasSignalId> <http://www.w3.org/2000/01/rdf-schema#label> "has signal id" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasStem> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasStem> <http://www.w3.org/2000/01/rdf-schema#label> "has stem" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunction> <http://www.w3.org/2000/01/rdf-schema#label> "has temporal function" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID> <http://www.w3.org/2000/01/rdf-schema#label> "has temporal function i d" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasTense> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTense> <http://www.w3.org/2000/01/rdf-schema#label> "has tense" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTid> <http://www.w3.org/2000/01/rdf-schema#label> "has tid" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasTimeUnit> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasTimeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "has time unit" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasType> <http://www.w3.org/2000/01/rdf-schema#label> "has type" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasValue> <http://www.w3.org/2000/01/rdf-schema#label> "has value" .
+# 
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#hasValueFromFunction> <http://www.w3.org/2000/01/rdf-schema#label> "has value from function" .
+# 
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#instanceOf> <http://www.w3.org/2000/01/rdf-schema#label> "instance of" .
+# 
+<http://fromtimetotime.linkeddata.es/#not> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#not> <http://www.w3.org/2000/01/rdf-schema#label> "not" .
+# 
+<http://fromtimetotime.linkeddata.es/#or> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#or> <http://www.w3.org/2000/01/rdf-schema#label> "or" .
+# 
+<http://fromtimetotime.linkeddata.es/#procedure> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#Type> .
+<http://fromtimetotime.linkeddata.es/#procedure> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#repetitionFrequency> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#repetitionFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "repetition frequency" .
+# 
+<http://fromtimetotime.linkeddata.es/#repetitionTimes> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#repetitionTimes> <http://www.w3.org/2000/01/rdf-schema#label> "repetition times" .
+# 
+<http://fromtimetotime.linkeddata.es/#representationOf> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#representationOf> <http://www.w3.org/2000/01/rdf-schema#label> "representation of" .
+# 
+<http://fromtimetotime.linkeddata.es/#true> <http://www.owl-ontologies.com/rdf#type> <http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction> .
+<http://fromtimetotime.linkeddata.es/#true> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+<http://fromtimetotime.linkeddata.es/#validPeriod> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://fromtimetotime.linkeddata.es/#validPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "valid period" .
+# 
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance> <http://www.w3.org/2000/01/rdf-schema#label> "Instance" .
+# 
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfMention> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfMention> <http://www.w3.org/2000/01/rdf-schema#label> "Mention" .
+# 
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes> <http://www.w3.org/2000/01/rdf-schema#label> "denotes" .
+# 
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> <http://www.w3.org/2000/01/rdf-schema#label> "Annotation" .
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation> <https://fromtimetotime.linkeddata.es/ontology#equivalentClass> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit> .
+# 
+<http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Periodic Time Interval" .
+# 
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Actor> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Actor> <http://www.w3.org/2000/01/rdf-schema#label> "Actor" .
+# 
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Event> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Time> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#Time> <http://www.w3.org/2000/01/rdf-schema#label> "Time" .
+# 
+<http://semanticweb.cs.vu.nl/2009/11/sem/#eventType> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticweb.cs.vu.nl/2009/11/sem/#eventType> <http://www.w3.org/2000/01/rdf-schema#label> "event type" .
+# 
+<http://www.owl-ontologies.com/rdf#> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.owl-ontologies.com/rdf#> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator> "María Navas-Loro" .
+<http://www.owl-ontologies.com/rdf#> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#description> "Ontology code created by Chowlk" .
+<http://www.owl-ontologies.com/rdf#> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#license> "http" .
+<http://www.owl-ontologies.com/rdf#> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#title> "FromTimeToTime Ontology" .
+<http://www.owl-ontologies.com/rdf#> <https://fromtimetotime.linkeddata.es/ontology#versionInfo> "0.0.1" .
+# 
+<http://www.owl-ontologies.com/rdf#value> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.owl-ontologies.com/rdf#value> <http://www.w3.org/2000/01/rdf-schema#label> "value" .
+# 
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#label> "close match" .
+# 
+<http://www.w3.org/2004/02/skos/core#related> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#label> "related" .
+# 
+<http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef> <http://www.w3.org/2000/01/rdf-schema#label> "ta annotators ref" .
+# 
+<http://www.w3.org/2005/11/its/rdf#taConfidence> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2005/11/its/rdf#taConfidence> <http://www.w3.org/2000/01/rdf-schema#label> "ta confidence" .
+# 
+<http://www.w3.org/2005/11/its/rdf#taIdentRef> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2005/11/its/rdf#taIdentRef> <http://www.w3.org/2000/01/rdf-schema#label> "ta ident ref" .
+# 
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#GeneralDateTimeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "General Date Time Description" .
+# 
+<http://www.w3.org/2006/time#GeneralDurationDescription> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#GeneralDurationDescription> <http://www.w3.org/2000/01/rdf-schema#label> "General Duration Description" .
+# 
+<http://www.w3.org/2006/time#Interval> <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/2000/01/rdf-schema#label> "Interval" .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
