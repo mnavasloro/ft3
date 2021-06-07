@@ -31,7 +31,7 @@
 }, {
   "@id" : "_:genid14",
   "http://www.owl-ontologies.com/rdf#type" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Class"
+    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
   } ]
 }, {
   "@id" : "_:genid15",
@@ -41,7 +41,7 @@
 }, {
   "@id" : "_:genid16",
   "http://www.owl-ontologies.com/rdf#type" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
   } ]
 }, {
   "@id" : "_:genid17",
@@ -1960,11 +1960,6 @@
 }, {
   "@id" : "https://fromtimetotime.linkeddata.es/ontology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/title" : [ {
-    "@value" : "Ontology to support temporal information annotation."
-  }, {
-    "@value" : "fromTimeToTime"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "ft3"
   } ],
@@ -1979,6 +1974,11 @@
   } ],
   "https://dublincore.org/specifications/dublin-core/dcmi-terms/#license" : [ {
     "@value" : "http://creativecommons.org/licenses/by-nc-sa/2.0/"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#title" : [ {
+    "@value" : "Ontology to support temporal information annotation."
+  }, {
+    "@value" : "fromTimeToTime"
   } ],
   "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix" : [ {
     "@value" : "ft3"
