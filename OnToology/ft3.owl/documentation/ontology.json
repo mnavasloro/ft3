@@ -1,0 +1,2032 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "https://fromtimetotime.linkeddata.es/ontology#unionOf" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Restriction" ],
+  "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3value"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#onProperty" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasValue"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Restriction"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "https://fromtimetotime.linkeddata.es/ontology#unionOf" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Restriction" ],
+  "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTclass"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#onProperty" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasClass"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Restriction" ],
+  "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTeid"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#onProperty" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasEid"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Restriction" ],
+  "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#onProperty" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasEiid"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Restriction" ],
+  "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#onProperty" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasTid"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "https://fromtimetotime.linkeddata.es/ontology#Restriction" ],
+  "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3type"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#onProperty" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasType"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#ACE2005",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#ADJECTIVE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#AFTER",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#APPROX",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#ASPECTUAL",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#AnnotationSchema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Annotation Schema"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#Argument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#BEFORE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3mod"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#CREATION_TIME",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Composed Temporal Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TemporalExpression"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#DATE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3type"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#DURATION",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#END",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EQUAL_OR_LESS",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EQUAL_OR_MORE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EVENTannotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "E V E N Tannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error28"
+  }, {
+    "@id" : "http://org.semanticweb.owlapi/error#Error29"
+  }, {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EVENTargument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "E V E N Targument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EVENTclass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "E V E N Tclass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EVENTeid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "E V E N Teid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTargument"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ID"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EVENTstem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "E V E N Tstem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EXPIRATION_TIME",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventFormalization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event Formalization"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event Instance"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventMention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event Mention"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventSchematization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event Schematization"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatter",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Events Matter Annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Events Matter Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Events Matter Event_what"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Events Matter Event_when"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Events Matter Event_who"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#FUTURE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#ID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "I D"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#INFINITIVE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#I_ACTION",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#I_STATE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#LESS_THAN",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Eannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error27"
+  }, {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Eargument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Easpect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Ecardinality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Eeiid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ID"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Emodality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Epolarity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Epos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M A K E I N S T A N C Etense"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MID",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MODIFICATION_TIME",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#MORE_THAN",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#NEG",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#NONE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#NOUN",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#OCCURRENCE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#ON_OR_AFTER",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#ON_OR_BEFORE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PAST",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PASTPART",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PERCEPTION",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PERFECTIVE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PERFECTIVE_PROGRESSIVE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#POS",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PREPOSITION",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PRESENT",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PRESPART",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PROGRESSIVE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#PUBLICATION_TIME",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#RECEPTION_TIME",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#RELEASE_TIME",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#REPORTING",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTclass"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#RepetitiveTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Repetitive Time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#SET",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALannotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S I G N A Lannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALargument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S I G N A Largument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALsid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S I G N A Lsid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ID"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALargument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#START",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#STATE",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIME",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3 Temporal Function I D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error30"
+  }, {
+    "@id" : "http://org.semanticweb.owlapi/error#Error31"
+  }, {
+    "@id" : "http://org.semanticweb.owlapi/error#Error32"
+  }, {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3argument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3begin Point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3endPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3end Point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3freq",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3freq"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3function In Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3mod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3mod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3quant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3quant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3temporal Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3tid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ID"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Type"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "T I M E X3value From Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TemporalExpression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Temporal Expression"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#TimeML",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#AnnotationSchema"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#Times",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Times"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Type"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#VERB",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#alternativeValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "alternative value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventSchematization"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  }, {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Actor"
+  }, {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#and",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "and"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#annotationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventMention"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "annotation of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventSchematization"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TemporalExpression"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#circumstance",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#composedOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "composed of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error26"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#false",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#followsSchema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "follows schema"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#AnnotationSchema"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTannotation"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALannotation"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  }, {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has argument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Argument"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTargument"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALargument"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3argument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasAspect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has aspect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasBeginPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has begin point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasCardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has cardinality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTclass"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasEid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has eid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTeid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasEiid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has eiid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasEndPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has end point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3endPoint"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasEventId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has event id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTeid"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasFreq",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has freq"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3freq"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasFunctionInDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has function in document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has i d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALsid"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasMod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has mod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3mod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasModality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has modality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasPolarity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has polarity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasPos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has pos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasQuant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has quant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3quant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasSid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has sid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasSignalId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has signal id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#SIGNALsid"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasStem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has stem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTstem"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasTemporalFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has temporal function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has temporal function i d"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasTense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has tense"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasTid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has tid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3tid"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasTimeUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Times"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has time unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error25"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3type"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#hasValueFromFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has value from function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#hasArgument"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#instanceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventInstance"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "instance of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EVENTannotation"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventSchematization"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#not",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "not"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#or",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "or"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#procedure",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Type"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#repetitionFrequency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#RepetitiveTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "repetition frequency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2006/time#GeneralDurationDescription"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#repetitionTimes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#RepetitiveTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "repetition times"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#Times"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#representationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TemporalExpression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "representation of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#true",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+  } ]
+}, {
+  "@id" : "http://fromtimetotime.linkeddata.es/#validPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "valid period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2006/time#Interval"
+  } ]
+}, {
+  "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Instance"
+  } ]
+}, {
+  "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfMention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mention"
+  } ]
+}, {
+  "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfMention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "denotes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance"
+  } ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Annotation"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#equivalentClass" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit"
+  } ]
+}, {
+  "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "annotation Unit"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Periodic Time Interval"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/TEO#TemporalInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Temporal Interval"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Actor"
+  } ]
+}, {
+  "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event"
+  } ]
+}, {
+  "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time"
+  } ]
+}, {
+  "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#eventType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventSchematization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "event type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventFormalization"
+  } ]
+}, {
+  "@id" : "http://www.owl-ontologies.com/rdf#",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Ontology"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator" : [ {
+    "@value" : "María Navas-Loro"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#description" : [ {
+    "@value" : "Ontology code created by Chowlk"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#license" : [ {
+    "@value" : "http"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#title" : [ {
+    "@value" : "FromTimeToTime Ontology"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#versionInfo" : [ {
+    "@value" : "0.0.1"
+  } ]
+}, {
+  "@id" : "http://www.owl-ontologies.com/rdf#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.owl-ontologies.com/rdf#value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#DatatypeProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#TIMEX3value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://fromtimetotime.linkeddata.es/#EventSchematization"
+  }, {
+    "@id" : "http://fromtimetotime.linkeddata.es/#RepetitiveTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "close match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval"
+  }, {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Event"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#related",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "related"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://groundedannotationframework.org/files/2014/01/gaf.rdfMention"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ta annotators ref"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2005/11/its/rdf#taConfidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ta confidence"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2005/11/its/rdf#taIdentRef",
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ta ident ref"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#GeneralDateTimeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "General Date Time Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#GeneralDurationDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "General Duration Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticweb.cs.vu.nl/2009/11/sem/#Time"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Interval"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2006/time#TimeUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#Class" ],
+  "http://www.owl-ontologies.com/rdf#type" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time Unit"
+  } ]
+}, {
+  "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty" ]
+}, {
+  "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty" ]
+}, {
+  "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty" ]
+}, {
+  "@id" : "https://dublincore.org/specifications/dublin-core/dcmi-terms/#title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Ontology to support temporal information annotation."
+  }, {
+    "@value" : "fromTimeToTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ft3"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://fromtimetotime.linkeddata.es/ontology/1.0"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator" : [ {
+    "@value" : "María Navas-Loro"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#description" : [ {
+    "@value" : "Ontology to support temporal information annotation"
+  } ],
+  "https://dublincore.org/specifications/dublin-core/dcmi-terms/#license" : [ {
+    "@value" : "http://creativecommons.org/licenses/by-nc-sa/2.0/"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix" : [ {
+    "@value" : "ft3"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri" : [ {
+    "@value" : "https://fromtimetotime.linkeddata.es/ontology"
+  } ],
+  "https://fromtimetotime.linkeddata.es/ontology#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#ObjectProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#Restriction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#allValuesFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#equivalentClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#onProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#unionOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri"
+  } ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://fromtimetotime.linkeddata.es/ontology#versionInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
