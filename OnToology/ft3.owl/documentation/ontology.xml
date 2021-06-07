@@ -14,12 +14,12 @@
      xmlns:dcmi-terms="https://dublincore.org/specifications/dublin-core/dcmi-terms/#">
     <owl:Ontology rdf:about="https://fromtimetotime.linkeddata.es/ontology">
         <owl:versionIRI rdf:resource="https://fromtimetotime.linkeddata.es/ontology/1.0"/>
-        <dc:title>Ontology to support temporal information annotation.</dc:title>
-        <dc:title>fromTimeToTime</dc:title>
         <rdfs:label>ft3</rdfs:label>
         <dcmi-terms:creator>María Navas-Loro</dcmi-terms:creator>
         <dcmi-terms:description>Ontology to support temporal information annotation</dcmi-terms:description>
         <dcmi-terms:license>http://creativecommons.org/licenses/by-nc-sa/2.0/</dcmi-terms:license>
+        <dcmi-terms:title>Ontology to support temporal information annotation.</dcmi-terms:title>
+        <dcmi-terms:title>fromTimeToTime</dcmi-terms:title>
         <versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</versionInfo>
         <vann:preferredNamespacePrefix>ft3</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://fromtimetotime.linkeddata.es/ontology</vann:preferredNamespaceUri>
@@ -2372,13 +2372,13 @@
         <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     </rdf:Description>
     <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    <rdf:Description>
         <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     </rdf:Description>
     <rdf:Description>
         <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>

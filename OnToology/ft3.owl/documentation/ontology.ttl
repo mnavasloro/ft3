@@ -8,12 +8,12 @@
 
 <https://fromtimetotime.linkeddata.es/ontology> rdf:type owl:Ontology ;
                                                  owl:versionIRI <https://fromtimetotime.linkeddata.es/ontology/1.0> ;
-                                                 <http://purl.org/dc/elements/1.1/title> "Ontology to support temporal information annotation." ,
-                                                                                         "fromTimeToTime" ;
                                                  rdfs:label "ft3" ;
                                                  <https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator> "María Navas-Loro" ;
                                                  <https://dublincore.org/specifications/dublin-core/dcmi-terms/#description> "Ontology to support temporal information annotation" ;
                                                  <https://dublincore.org/specifications/dublin-core/dcmi-terms/#license> "http://creativecommons.org/licenses/by-nc-sa/2.0/" ;
+                                                 <https://dublincore.org/specifications/dublin-core/dcmi-terms/#title> "Ontology to support temporal information annotation." ,
+                                                                                                                       "fromTimeToTime" ;
                                                  :versionInfo 1.0 ;
                                                  :vann:preferredNamespacePrefix "ft3" ;
                                                  :vann:preferredNamespaceUri "https://fromtimetotime.linkeddata.es/ontology" .
@@ -1371,13 +1371,13 @@ _:genid10 rdf:type :Restriction ;
 [ <http://www.owl-ontologies.com/rdf#type> owl:Restriction
  ] .
 
+[ <http://www.owl-ontologies.com/rdf#type> owl:Restriction
+ ] .
+
+[ <http://www.owl-ontologies.com/rdf#type> owl:Restriction
+ ] .
+
 [ <http://www.owl-ontologies.com/rdf#type> owl:Class
- ] .
-
-[ <http://www.owl-ontologies.com/rdf#type> owl:Restriction
- ] .
-
-[ <http://www.owl-ontologies.com/rdf#type> owl:Restriction
  ] .
 
 [ <http://www.owl-ontologies.com/rdf#type> owl:Restriction

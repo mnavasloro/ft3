@@ -1,11 +1,11 @@
 <https://fromtimetotime.linkeddata.es/ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://fromtimetotime.linkeddata.es/ontology> <http://www.w3.org/2002/07/owl#versionIRI> <https://fromtimetotime.linkeddata.es/ontology/1.0> .
-<https://fromtimetotime.linkeddata.es/ontology> <http://purl.org/dc/elements/1.1/title> "Ontology to support temporal information annotation." .
-<https://fromtimetotime.linkeddata.es/ontology> <http://purl.org/dc/elements/1.1/title> "fromTimeToTime" .
 <https://fromtimetotime.linkeddata.es/ontology> <http://www.w3.org/2000/01/rdf-schema#label> "ft3" .
 <https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator> "María Navas-Loro" .
 <https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#description> "Ontology to support temporal information annotation" .
 <https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#license> "http://creativecommons.org/licenses/by-nc-sa/2.0/" .
+<https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#title> "Ontology to support temporal information annotation." .
+<https://fromtimetotime.linkeddata.es/ontology> <https://dublincore.org/specifications/dublin-core/dcmi-terms/#title> "fromTimeToTime" .
 <https://fromtimetotime.linkeddata.es/ontology> <https://fromtimetotime.linkeddata.es/ontology#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://fromtimetotime.linkeddata.es/ontology> <https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix> "ft3" .
 <https://fromtimetotime.linkeddata.es/ontology> <https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri> "https://fromtimetotime.linkeddata.es/ontology" .
@@ -1124,9 +1124,9 @@ _:genid10 <https://fromtimetotime.linkeddata.es/ontology#onProperty> <http://fro
 _:genid11 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid12 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid13 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid14 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid15 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid16 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid17 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid18 <http://www.owl-ontologies.com/rdf#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
