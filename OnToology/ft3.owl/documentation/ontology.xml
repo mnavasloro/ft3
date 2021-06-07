@@ -1,0 +1,3011 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://fromtimetotime.linkeddata.es/ontology#"
+     xml:base="https://fromtimetotime.linkeddata.es/ontology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf1="http://www.owl-ontologies.com/rdf#"
+     xmlns:rdf2="http://www.w3.org/2005/11/its/rdf#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="https://fromtimetotime.linkeddata.es/ontology#vann:"
+     xmlns:ontology="https://fromtimetotime.linkeddata.es/ontology#"
+     xmlns:dcmi-terms="https://dublincore.org/specifications/dublin-core/dcmi-terms/#">
+    <owl:Ontology rdf:about="https://fromtimetotime.linkeddata.es/ontology">
+        <owl:versionIRI rdf:resource="https://fromtimetotime.linkeddata.es/ontology/1.0"/>
+        <dc:title>Ontology to support temporal information annotation.</dc:title>
+        <dc:title>fromTimeToTime</dc:title>
+        <rdfs:label>ft3</rdfs:label>
+        <dcmi-terms:creator>María Navas-Loro</dcmi-terms:creator>
+        <dcmi-terms:description>Ontology to support temporal information annotation</dcmi-terms:description>
+        <dcmi-terms:license>http://creativecommons.org/licenses/by-nc-sa/2.0/</dcmi-terms:license>
+        <versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</versionInfo>
+        <vann:preferredNamespacePrefix>ft3</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://fromtimetotime.linkeddata.es/ontology</vann:preferredNamespaceUri>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/rdf#type -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.owl-ontologies.com/rdf#type"/>
+    
+
+
+    <!-- http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef">
+        <rdfs:domain rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2005/11/its/rdf#taConfidence -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2005/11/its/rdf#taConfidence">
+        <rdfs:domain rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator -->
+
+
+    <owl:AnnotationProperty rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator"/>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#description -->
+
+
+    <owl:AnnotationProperty rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#description"/>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#license -->
+
+
+    <owl:AnnotationProperty rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#license"/>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#title -->
+
+
+    <owl:AnnotationProperty rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#title"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#allValuesFrom -->
+
+
+    <owl:AnnotationProperty rdf:about="https://fromtimetotime.linkeddata.es/ontology#allValuesFrom"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#equivalentClass -->
+
+
+    <owl:AnnotationProperty rdf:about="https://fromtimetotime.linkeddata.es/ontology#equivalentClass"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#onProperty -->
+
+
+    <owl:AnnotationProperty rdf:about="https://fromtimetotime.linkeddata.es/ontology#onProperty"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#unionOf -->
+
+
+    <owl:AnnotationProperty rdf:about="https://fromtimetotime.linkeddata.es/ontology#unionOf"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#versionInfo -->
+
+
+    <owl:AnnotationProperty rdf:about="https://fromtimetotime.linkeddata.es/ontology#versionInfo"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespacePrefix">
+        <rdfs:subPropertyOf rdf:resource="https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="https://fromtimetotime.linkeddata.es/ontology#vann:preferredNamespaceUri"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#alternativeValue -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#alternativeValue">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EventSchematization"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Actor"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#and -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#and">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#annotationOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#annotationOf">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventMention"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EventSchematization"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TemporalExpression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#composedOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#composedOf">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error26"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#followsSchema -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#followsSchema">
+        <rdfs:domain rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#AnnotationSchema"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasArgument -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasArgument">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTannotation"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#SIGNALannotation"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:domain rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#Argument"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTargument"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#SIGNALargument"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasAspect -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasAspect">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasBeginPoint -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasBeginPoint">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasCardinality -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasCardinality">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasClass -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasClass">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTclass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEid -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasEid">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTeid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEiid -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasEiid">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEndPoint -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasEndPoint">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3endPoint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEventId -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasEventId">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTeid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasFreq -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasFreq">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3freq"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasFunctionInDocument -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasFunctionInDocument">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasID -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasID">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#ID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasId -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasId">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#SIGNALannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#SIGNALsid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasMod -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasMod">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3mod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasModality -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasModality">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasPolarity -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasPolarity">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasPos -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasPos">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasQuant -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasQuant">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3quant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasSid -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasSid">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasSignalId -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasSignalId">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#SIGNALsid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasStem -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasStem">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTstem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTemporalFunction -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasTemporalFunction">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTense -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasTense">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTid -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasTid">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3tid"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTimeUnit -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasTimeUnit">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#Times"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error25"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasType -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasType">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3type"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasValue -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasValue">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3value"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasValueFromFunction -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#hasValueFromFunction">
+        <rdfs:subPropertyOf rdf:resource="http://fromtimetotime.linkeddata.es/#hasArgument"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3annotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#instanceOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#instanceOf">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventInstance"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTannotation"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EventSchematization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#not -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#not">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#or -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#or">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#repetitionFrequency -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#repetitionFrequency">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#RepetitiveTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#GeneralDurationDescription"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#repetitionTimes -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#repetitionTimes">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#RepetitiveTime"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#Times"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#representationOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#representationOf">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TemporalExpression"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Time"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#validPeriod -->
+
+
+    <owl:ObjectProperty rdf:about="http://fromtimetotime.linkeddata.es/#validPeriod">
+        <rdfs:domain rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Time"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes -->
+
+
+    <owl:ObjectProperty rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes">
+        <rdfs:domain rdf:resource="http://groundedannotationframework.org/files/2014/01/gaf.rdfMention"/>
+        <rdfs:range rdf:resource="http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#eventType -->
+
+
+    <owl:ObjectProperty rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#eventType">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventSchematization"/>
+        <rdfs:range rdf:resource="http://fromtimetotime.linkeddata.es/#EventFormalization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#EventSchematization"/>
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#RepetitiveTime"/>
+        <rdfs:range rdf:resource="http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval"/>
+        <rdfs:range rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#related -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#related">
+        <rdfs:domain rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+        <rdfs:range rdf:resource="http://groundedannotationframework.org/files/2014/01/gaf.rdfMention"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/rdf#value -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/rdf#value">
+        <rdfs:domain rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3value"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#AnnotationSchema -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#AnnotationSchema"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#Argument -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#Argument"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TemporalExpression"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTannotation -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EVENTannotation">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error28"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error29"/>
+        <rdfs:subClassOf rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTargument -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EVENTargument">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#Argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTclass -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EVENTclass">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTeid -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EVENTeid">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTargument"/>
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#ID"/>
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTstem -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EVENTstem">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventFormalization -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventFormalization"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventInstance -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventInstance"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventMention -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventMention"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventSchematization -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventSchematization"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation">
+        <rdfs:subClassOf rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#ID -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#ID"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error27"/>
+        <rdfs:subClassOf rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#Argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#ID"/>
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#RepetitiveTime -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#RepetitiveTime">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#SIGNALannotation -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALannotation">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#Argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#SIGNALargument -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALargument">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#Argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#SIGNALsid -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALsid">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#ID"/>
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#SIGNALargument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3tid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3annotation -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3annotation">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error30"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error31"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error32"/>
+        <rdfs:subClassOf rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3argument -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3argument">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#Argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3tid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3endPoint -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3endPoint">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3tid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3freq -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3freq">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3mod -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3mod">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3quant -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3quant">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3tid -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3tid">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#ID"/>
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3type -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3type">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3value -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3value">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3argument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction">
+        <rdfs:subClassOf rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3tid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TemporalExpression -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#TemporalExpression"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#Times -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#Times"/>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#Type -->
+
+
+    <owl:Class rdf:about="http://fromtimetotime.linkeddata.es/#Type"/>
+    
+
+
+    <!-- http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance -->
+
+
+    <owl:Class rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance"/>
+    
+
+
+    <!-- http://groundedannotationframework.org/files/2014/01/gaf.rdfMention -->
+
+
+    <owl:Class rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfMention"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error25 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error25"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error26 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error26"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error27 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error27"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error28 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error28"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error29 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error29"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error30 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error30"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error31 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error31"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error32 -->
+
+
+    <owl:Class rdf:about="http://org.semanticweb.owlapi/error#Error32"/>
+    
+
+
+    <!-- http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation -->
+
+
+    <owl:Class rdf:about="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation"/>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval -->
+
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval"/>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#Actor -->
+
+
+    <owl:Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Actor"/>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#Event -->
+
+
+    <owl:Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Event"/>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#Time -->
+
+
+    <owl:Class rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Time"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDurationDescription -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#GeneralDurationDescription">
+        <rdfs:subClassOf rdf:resource="http://semanticweb.cs.vu.nl/2009/11/sem/#Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty -->
+
+
+    <owl:Class rdf:about="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#Class -->
+
+
+    <owl:Class rdf:about="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty -->
+
+
+    <owl:Class rdf:about="https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#ObjectProperty -->
+
+
+    <owl:Class rdf:about="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    
+
+
+    <!-- https://fromtimetotime.linkeddata.es/ontology#Restriction -->
+
+
+    <owl:Class rdf:about="https://fromtimetotime.linkeddata.es/ontology#Restriction"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#AnnotationSchema -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#AnnotationSchema">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#Argument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#Argument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTannotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EVENTannotation">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTargument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EVENTargument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTclass -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EVENTclass">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTeid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EVENTeid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EVENTstem -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EVENTstem">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventFormalization -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventFormalization">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventInstance -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventInstance">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventMention -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventMention">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventSchematization -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventSchematization">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#ID -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#ID">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#RepetitiveTime -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#RepetitiveTime">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#SIGNALannotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALannotation">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#SIGNALargument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALargument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#SIGNALsid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALsid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3annotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3annotation">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3argument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3argument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3endPoint -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3endPoint">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3freq -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3freq">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3mod -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3mod">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3quant -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3quant">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3tid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3tid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3type -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3type">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3value -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3value">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#TemporalExpression -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#TemporalExpression">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#Times -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#Times">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#Type -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#Type">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#alternativeValue -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#alternativeValue">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#and -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#and">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#annotationOf -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#annotationOf">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#composedOf -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#composedOf">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#followsSchema -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#followsSchema">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasArgument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasArgument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasAspect -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasAspect">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasBeginPoint -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasBeginPoint">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasCardinality -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasCardinality">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasClass -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasClass">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasEid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEiid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasEiid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEndPoint -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasEndPoint">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasEventId -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasEventId">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasFreq -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasFreq">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasFunctionInDocument -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasFunctionInDocument">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasID -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasID">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasId -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasId">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasMod -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasMod">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasModality -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasModality">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasPolarity -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasPolarity">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasPos -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasPos">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasQuant -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasQuant">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasSid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasSid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasSignalId -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasSignalId">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasStem -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasStem">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTemporalFunction -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasTemporalFunction">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTense -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasTense">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTid -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasTid">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasTimeUnit -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasTimeUnit">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasType -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasType">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasValue -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasValue">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#hasValueFromFunction -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#hasValueFromFunction">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#instanceOf -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#instanceOf">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#not -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#not">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#or -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#or">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#repetitionFrequency -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#repetitionFrequency">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#repetitionTimes -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#repetitionTimes">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#representationOf -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#representationOf">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://fromtimetotime.linkeddata.es/#validPeriod -->
+
+
+    <owl:NamedIndividual rdf:about="http://fromtimetotime.linkeddata.es/#validPeriod">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance -->
+
+
+    <owl:NamedIndividual rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://groundedannotationframework.org/files/2014/01/gaf.rdfMention -->
+
+
+    <owl:NamedIndividual rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfMention">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes -->
+
+
+    <owl:NamedIndividual rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation -->
+
+
+    <owl:NamedIndividual rdf:about="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit -->
+
+
+    <owl:NamedIndividual rdf:about="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>annotation Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/TEO#TemporalInterval -->
+
+
+    <owl:NamedIndividual rdf:about="http://purl.bioontology.org/ontology/TEO#TemporalInterval">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Temporal Interval</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#Actor -->
+
+
+    <owl:NamedIndividual rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Actor">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#Event -->
+
+
+    <owl:NamedIndividual rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Event">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#Time -->
+
+
+    <owl:NamedIndividual rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Time">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://semanticweb.cs.vu.nl/2009/11/sem/#eventType -->
+
+
+    <owl:NamedIndividual rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#eventType">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/rdf#type -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/rdf#type">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/rdf#value -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/rdf#value">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#DatatypeProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#related -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2004/02/skos/core#related">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#ObjectProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2005/11/its/rdf#taConfidence -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2005/11/its/rdf#taConfidence">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDurationDescription -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#GeneralDurationDescription">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TimeUnit -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#TimeUnit">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Time Unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator -->
+
+
+    <owl:NamedIndividual rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#creator">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#description -->
+
+
+    <owl:NamedIndividual rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#description">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#license -->
+
+
+    <owl:NamedIndividual rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#license">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://dublincore.org/specifications/dublin-core/dcmi-terms/#title -->
+
+
+    <owl:NamedIndividual rdf:about="https://dublincore.org/specifications/dublin-core/dcmi-terms/#title">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#AnnotationProperty"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+        <unionOf>
+            <rdf:Description/>
+        </unionOf>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Class"/>
+        <unionOf>
+            <rdf:Description/>
+        </unionOf>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Restriction"/>
+        <allValuesFrom rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTclass"/>
+        <onProperty rdf:resource="http://fromtimetotime.linkeddata.es/#hasClass"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Restriction"/>
+        <allValuesFrom rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTeid"/>
+        <onProperty rdf:resource="http://fromtimetotime.linkeddata.es/#hasEid"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Restriction"/>
+        <allValuesFrom rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid"/>
+        <onProperty rdf:resource="http://fromtimetotime.linkeddata.es/#hasEiid"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Restriction"/>
+        <allValuesFrom rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3tid"/>
+        <onProperty rdf:resource="http://fromtimetotime.linkeddata.es/#hasTid"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid9">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Restriction"/>
+        <allValuesFrom rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3type"/>
+        <onProperty rdf:resource="http://fromtimetotime.linkeddata.es/#hasType"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid10">
+        <rdf:type rdf:resource="https://fromtimetotime.linkeddata.es/ontology#Restriction"/>
+        <allValuesFrom rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3value"/>
+        <onProperty rdf:resource="http://fromtimetotime.linkeddata.es/#hasValue"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#ACE2005">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#ADJECTIVE">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#AFTER">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#APPROX">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#ASPECTUAL">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#AnnotationSchema">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Annotation Schema</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#Argument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Argument</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#BEFORE">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3mod"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#CREATION_TIME">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#ComposedTemporalExpression">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Composed Temporal Expression</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#DATE">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3type"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#DURATION">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#END">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EQUAL_OR_LESS">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EQUAL_OR_MORE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EVENTannotation">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>E V E N Tannotation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EVENTargument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>E V E N Targument</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EVENTclass">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>E V E N Tclass</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EVENTeid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>E V E N Teid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EVENTstem">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>E V E N Tstem</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EXPIRATION_TIME">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventFormalization">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Event Formalization</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventInstance">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Event Instance</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventMention">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Event Mention</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventSchematization">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Event Schematization</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatter">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterAnnotation">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Events Matter Annotation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Events Matter Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_what">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Events Matter Event_what</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_when">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Events Matter Event_when</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#EventsMatterEvent_who">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Events Matter Event_who</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#FUTURE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#ID">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>I D</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#INFINITIVE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#I_ACTION">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#I_STATE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#LESS_THAN">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEannotation">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Eannotation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEargument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Eargument</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Easpect</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEcardinality">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Ecardinality</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEeiid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Eeiid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEmodality">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Emodality</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Epolarity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpos">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Epos</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>M A K E I N S T A N C Etense</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MID">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MODIFICATION_TIME">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#MORE_THAN">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#NEG">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEpolarity"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#NONE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#NOUN">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#OCCURRENCE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#ON_OR_AFTER">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#ON_OR_BEFORE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PAST">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEtense"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PASTPART">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PERCEPTION">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PERFECTIVE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PERFECTIVE_PROGRESSIVE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#POS">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PREPOSITION">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PRESENT">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PRESPART">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PROGRESSIVE">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#MAKEINSTANCEaspect"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#PUBLICATION_TIME">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#RECEPTION_TIME">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#RELEASE_TIME">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#REPORTING">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#EVENTclass"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#RepetitiveTime">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Repetitive Time</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#SET">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALannotation">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>S I G N A Lannotation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALargument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>S I G N A Largument</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#SIGNALsid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>S I G N A Lsid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#START">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#STATE">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIME">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3TemporalFunctionID">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3 Temporal Function I D</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3annotation">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3annotation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3argument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3argument</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3beginPoint">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3begin Point</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3endPoint">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3end Point</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3freq">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3freq</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3functionInDocument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3function In Document</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3mod">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3mod</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3quant">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3quant</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3temporal Function</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3tid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3tid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3type">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3type</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3value">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3value</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TIMEX3valueFromFunction">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>T I M E X3value From Function</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TemporalExpression">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Temporal Expression</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#TimeML">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#AnnotationSchema"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#Times">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#Type">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Type</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#VERB">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#alternativeValue">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>alternative value</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#and">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>and</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#annotationOf">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>annotation of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#circumstance">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#composedOf">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>composed of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#false">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#followsSchema">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>follows schema</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasArgument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has argument</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasAspect">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has aspect</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasBeginPoint">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has begin point</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasCardinality">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has cardinality</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasClass">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has class</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasEid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has eid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasEiid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has eiid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasEndPoint">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has end point</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasEventId">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has event id</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasFreq">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has freq</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasFunctionInDocument">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has function in document</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasID">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has i d</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasId">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has id</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasMod">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has mod</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasModality">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has modality</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasPolarity">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has polarity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasPos">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has pos</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasQuant">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has quant</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasSid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has sid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasSignalId">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has signal id</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasStem">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has stem</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasTemporalFunction">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has temporal function</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasTemporalFunctionID">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has temporal function i d</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasTense">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has tense</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasTid">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has tid</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasTimeUnit">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has time unit</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasType">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has type</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasValue">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has value</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#hasValueFromFunction">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>has value from function</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#instanceOf">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>instance of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#not">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>not</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#or">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>or</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#procedure">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#Type"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#repetitionFrequency">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>repetition frequency</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#repetitionTimes">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>repetition times</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#representationOf">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>representation of</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#true">
+        <rdf1:type rdf:resource="http://fromtimetotime.linkeddata.es/#TIMEX3temporalFunction"/>
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://fromtimetotime.linkeddata.es/#validPeriod">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>valid period</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfInstance">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Instance</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfMention">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Mention</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://groundedannotationframework.org/files/2014/01/gaf.rdfdenotes">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>denotes</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Annotation">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Annotation</rdfs:label>
+        <equivalentClass rdf:resource="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#annotationUnit"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/TEO#PeriodicTimeInterval">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Periodic Time Interval</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Actor">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Event">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#Time">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Time</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://semanticweb.cs.vu.nl/2009/11/sem/#eventType">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>event type</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/rdf#">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+        <dcmi-terms:creator>María Navas-Loro</dcmi-terms:creator>
+        <dcmi-terms:description>Ontology code created by Chowlk</dcmi-terms:description>
+        <dcmi-terms:license>http</dcmi-terms:license>
+        <dcmi-terms:title>FromTimeToTime Ontology</dcmi-terms:title>
+        <versionInfo>0.0.1</versionInfo>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.owl-ontologies.com/rdf#value">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+        <rdfs:label>value</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>close match</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#related">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>related</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2005/11/its/rdf#taAnnotatorsRef">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>ta annotators ref</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2005/11/its/rdf#taConfidence">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>ta confidence</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2005/11/its/rdf#taIdentRef">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+        <rdfs:label>ta ident ref</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>General Date Time Description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#GeneralDurationDescription">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>General Duration Description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdf1:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:label>Interval</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
